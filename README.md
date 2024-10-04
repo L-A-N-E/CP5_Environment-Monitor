@@ -1,14 +1,14 @@
-<h1 align='center'>:desktop_computer: CP5_Environment-Monitor</h1>
+<h1 align='center'>:desktop_computer: CP5: Environment Monitor :hotsprings:</h1>
 
 ![banner](https://github.com/L-A-N-E/CP2_Edge_1SEM/assets/153787379/132308ff-27a0-45e7-8323-80d9103f2390)
 
 ## Índice :page_with_curl:
 
   * [Descrição do Projeto](#descrição-do-projeto-memo)
-     * [Introdução](#introdução-memo)
+     * [Introdução](#introdução-left_speech_bubble)
      * [LDR](#ldr-bulb)
      * [DHT11/22](#dht1122-snowflake)
-     * [Gráficos Dinâmicos](#gráficos-dinâmicos-black_nib)
+     * [Gráficos Dinâmicos](#gráficos-dinâmicos-bar_chart)
      * [Conclusão](#conclusão-black_nib)
   * [Acesso ao projeto](#acesso-ao-projeto-file_folder)
   * [Ferramenta utilizada](#ferramenta-utilizada-hammer_and_wrench)
@@ -156,7 +156,7 @@ Você pode acessar o [código do projeto](cp5.ino) ou a [simulação feita no Wo
     - ``3.2.1.`` No arquivo, substitua o ``IP_ADDRESS = "PUBLIC_IP"``  pelo IP do servidor do Cloud Service de sua preferência.
       
     ```bash
-      nano dashboard.py
+      nano main.py
     ```
   
   - ``3.4.`` Crie uma pasta assets e entre dentro dela:
@@ -182,7 +182,7 @@ Você pode acessar o [código do projeto](cp5.ino) ou a [simulação feita no Wo
 - ``4.`` Inicie o código em Python:
 
    ```bash
-      python3 dashboard.py
+      python3 dashboard/main.py
     ```
 
 - ``5.`` Por fim, abra seu navegador e pesquise: ``PUBLIC_IP:8050``
